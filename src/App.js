@@ -1,11 +1,9 @@
-import React from 'react';
+// import React from 'react';
+// import introduction from './components/introduction';
 
- function App() {
-  return (
-    <>
-    <introduction />
-    </>
-  );
-}
+//  export default function App() {
+//   return (
+//     <introduction />
+//   );
+// }
 
-export default App;
