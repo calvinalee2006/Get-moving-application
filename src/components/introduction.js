@@ -1,11 +1,8 @@
 import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+// import {Button} from 'reactstrap';
 
 export default function introduction() {
-
-    function clickMe() {
-        alert('You clicked me')
-    }
     return (
       <>
       <header>
@@ -18,9 +15,7 @@ export default function introduction() {
         <p>This app is to get you moving for just 30 minutes a day! Minimum cardio or 
           small at home exercises to do to make sure you are keeping healthy and keeping your heartbeat up, 
           at the same time focusing clearing your mind of stress for the days ahead! </p>
-    <button>
-        Next
-        </button>
+    <Link component={Button} to="./questions"> Next</Link>
       </>
     )
   }
