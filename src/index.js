@@ -1,21 +1,12 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom'
-// import introduction from "./components/introduction"
-// import App from './App';
+import React from 'react';
+import ReactDOM from 'react-dom'
+import App from './App';
 
-// export default function() {
-//   return (
-//     <>
-//     <introduction />
-//     </>
-//   )
-// }
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+)
 
-
-// ReactDom.render(
-//   <App />,
-//   document.getElementById('root')
-// )
 
 
 
