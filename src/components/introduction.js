@@ -1,6 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-// import {Button} from 'reactstrap';
+import {NavLink} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 export default function introduction() {
     return (
@@ -15,7 +16,10 @@ export default function introduction() {
         <p>This app is to get you moving for just 30 minutes a day! Minimum cardio or 
           small at home exercises to do to make sure you are keeping healthy and keeping your heartbeat up, 
           at the same time focusing clearing your mind of stress for the days ahead! </p>
-    <Link component={Button} to="./questions"> Next</Link>
+          <NavLink to="/questions">
+            <button>Next</button>
+            </NavLink>
+    
       </>
     )
   }

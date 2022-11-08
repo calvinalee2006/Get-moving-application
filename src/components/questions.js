@@ -1,4 +1,6 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function questions() {
     return (
@@ -11,6 +13,12 @@ export default function questions() {
         <p>If you would like to skip the questionnaire and dive right into exercising, so you 
             can personally select what you want as your exercise, that is also an excellent
             choice! </p>
+            <NavLink to="/sex">
+            <button>Take Questionnaire</button>
+            </NavLink>
+            <NavLink to="/exercise">
+            <button>Skip Questionnaire</button>
+            </NavLink>
         </>
     )
 }
