@@ -6,15 +6,13 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
  export default function App() {
   return (
     <Router>
-      <Route path="/Introduction">
-        <Introduction />
+      <Route>
+        <Introduction/>
       </Route>
       <Route path="/questions">
         <Questions />
       </Route>
-
     </Router>
-    
   );
 }
 
